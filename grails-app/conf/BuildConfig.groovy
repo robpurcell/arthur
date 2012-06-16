@@ -6,6 +6,14 @@ grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
+// For testing the GWT plugin.
+grails.plugin.location.gwt = "/Users/rob/Development/source/github/grails-gwt"
+
+gwt {
+    version = "2.4.0"
+    gin.version = "1.5.0"
+}
+
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
